@@ -1,5 +1,6 @@
 # LoRaWAN-Node
 
-Hier wird der Quelltext der Programmbeispiele aus meinem Buch "Einfache LoRaWAN-Knoten für das IoT" abgelegt.
+Hier ist der Quelltext der Programmbeispiele aus meinem Buch "Einfache LoRaWAN-Knoten für das IoT" abgelegt.
 
-Bitte noch um etwas Geduld.
+Das Buch ist als Kindle eBook verfügbar https://www.amazon.de/dp/B07HDP62K3 und in Kürze auch als Print.
+
