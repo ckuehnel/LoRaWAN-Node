@@ -1,7 +1,7 @@
 /*
  * File: Capsule_LoRaWan.ino
  * 
- * Board: Capsule w/ HDC1080 sensor
+ * Board: Heltec CubeCell Capsule w/ HDC1080 sensor
  */
 #include "Arduino.h"
 #include "LoRaWan_APP.h"
