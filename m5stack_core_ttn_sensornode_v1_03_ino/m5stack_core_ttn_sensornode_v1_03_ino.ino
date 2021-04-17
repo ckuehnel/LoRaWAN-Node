@@ -499,8 +499,8 @@ void tft_display_m5stack(void)
 void send_to_TTN(void) 
 {  
   // show picture
-  //iot_picture="/ttn.jpg";
-  //M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
+  iot_picture="/ttn.jpg";
+  M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
   
   // neopixels red
   rgb_neopixel(255,0,0);
@@ -639,9 +639,9 @@ void setup()
   M5.Lcd.setBrightness(255); 
 
   // show iot picture
-  //iot_picture="/iot.jpg";
-  //M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
-  //delay(2000);
+  iot_picture="/iot.jpg";
+  M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
+  delay(2000);
 
   // activate the FIRE NeoPixels blue
   rgb_neopixel(0,0,255);
@@ -655,9 +655,9 @@ void setup()
 
   #ifdef ENABLE_SENSOR_ENVII
     // show picture
-    //iot_picture="/unit_env2.jpg";
-    //M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
-    //delay(2000);  
+    iot_picture="/unit_env2.jpg";
+    M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
+    delay(2000);  
     
     Wire.begin();
     while (!bme.begin(0x76))
@@ -681,6 +681,7 @@ void setup()
     iot_picture="/unit_pir.jpg";
     M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
     delay(2000);   
+    
     pinMode(PIR_MOTION_SENSOR, INPUT);
     Serial.println(F("[x] GROVE PIR Motion Sensor detected"));
   #endif   
@@ -695,8 +696,8 @@ void setup()
   // Serial2.begin(115200, SERIAL_8N1, 15, 13);
   Serial2.begin(115200, SERIAL_8N1, 16, 17);
   // show picture
-  //iot_picture="/comx_lorawan.jpg";
-  //M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
+  iot_picture="/comx_lorawan.jpg";
+  M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
 
   // we have to get and set some parameters 
   // first order does not work - waking module 
@@ -729,9 +730,9 @@ void setup()
   ATCommand("Join", "1");
   
   // show picture
-  //iot_picture="/ttn.jpg";
-  //M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
-  //delay(2000);   
+  iot_picture="/ttn.jpg";
+  M5.Lcd.drawJpgFile(SD, iot_picture.c_str());
+  delay(2000);   
  
   // neopixels now off
   rgb_neopixel_off();
