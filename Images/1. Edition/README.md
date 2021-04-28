@@ -1,1 +1,1 @@
-Bilder der 1. Auflage
+Screenshots der 1. Auflage
