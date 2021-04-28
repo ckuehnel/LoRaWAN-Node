@@ -1,1 +1,1 @@
-Bilder der 2. Auflage
+Screenshots der 2. Auflage
