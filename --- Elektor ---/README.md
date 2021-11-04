@@ -11,3 +11,5 @@ Die Registrierung von LoRaWAN-Knoten und Gateways im TTS (CE) sowie die Bereitst
 Das vorliegende Buch versetzt Sie in die Lage, mit batteriebetriebenen Sensoren (LoRaWAN-Knoten) erfasste Daten drahtlos im Internet bereitzustellen und zu visualisieren.
 Sie lernen die Grundlagen für Smart-City- und IoT-Anwendungen, die beispielsweise die Messung von Luftqualität, Wasserständen, Schneehöhen, 
 das Ermitteln von freien Parkfeldern (Smart Parking) und die intelligente Steuerung der Straßenbeleuchtung (Smart Lighting) u.a.m. ermöglichen.
+
+2021-11-03/CK
