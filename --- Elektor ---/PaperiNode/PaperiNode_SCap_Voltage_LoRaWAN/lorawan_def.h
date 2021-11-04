@@ -265,7 +265,7 @@
 			.frame_counter_up   = 0,
 			.Receive_delay		= RECEIVE_DELAY2,
 			.Transmit_Power     = 0x0F,
-			.TxChDr = {SF09_BW125kHz, CH00_868_100},
+			.TxChDr = {SF07_BW125kHz, CH00_868_100},  // CK: changed to SF07 to save power
 			.RxChDr = {SF09_BW125kHz, CH10_869_525}
 		};
 
@@ -295,7 +295,7 @@
 			.Frame_Port    =  0,
 			.Frame_Options = {0},
 			.MIC           = {0},
-			.Confirmation  = CONFIRMED,
+			.Confirmation  = UNCONFIRMED,
 			.retVal		   = INIT,
 			.Count		   =  0,
 			.Data		   = {0}
